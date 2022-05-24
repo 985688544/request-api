@@ -6,7 +6,7 @@
     "publish": {
       "ignoreChanges": ["ignored-file", "*.md"],
       "message": "chore(release): publish %s",
-      "registry": "https://github.com/985688544/request-api.git"
+      "registry": "git@github.com:985688544/request-api.git"
     },
     "bootstrap": {
       "ignore": "component-*",
