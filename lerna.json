@@ -4,13 +4,24 @@
   ],
   "command": {
     "publish": {
-      "ignoreChanges": ["ignored-file", "*.md"],
+      "allowBranch": "master",
+      "conventionalCommits": true,
+      "exact": true,
+      "ignoreChanges": [
+        "ignored-file",
+        "*.md"
+      ],
       "message": "chore(release): publish %s",
+      "npmClientArgs": [
+        "--no-package-lock"
+      ],
       "registry": "git@github.com:985688544/request-api.git"
     },
     "bootstrap": {
       "ignore": "component-*",
-      "npmClientArgs": ["--no-package-lock"]
+      "npmClientArgs": [
+        "--no-package-lock"
+      ]
     }
   },
   "version": "independent"

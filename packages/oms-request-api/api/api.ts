@@ -285,7 +285,7 @@ export class Api<SecurityDataType extends unknown> {
     this.http = http;
   }
 
-  数据字典 = {
+  getDic = {
     /**
      * @description 获取数据字典
      *
@@ -307,7 +307,8 @@ export class Api<SecurityDataType extends unknown> {
         type: ContentType.Json,
         ...params,
       }),
-
+  };
+  getDicList = {
     /**
      * @description 获取多个数据字典
      *
@@ -334,7 +335,7 @@ export class Api<SecurityDataType extends unknown> {
         ...params,
       }),
   };
-  用户登录 = {
+  getImageCode = {
     /**
      * @description 获取登录验证码
      *
@@ -354,7 +355,8 @@ export class Api<SecurityDataType extends unknown> {
         type: ContentType.Json,
         ...params,
       }),
-
+  };
+  getUserInfo = {
     /**
      * @description 获取用户信息包含推广码
      *
@@ -374,7 +376,8 @@ export class Api<SecurityDataType extends unknown> {
         type: ContentType.Json,
         ...params,
       }),
-
+  };
+  login = {
     /**
      * @description 用户登录验证
      *
@@ -396,7 +399,8 @@ export class Api<SecurityDataType extends unknown> {
         type: ContentType.Json,
         ...params,
       }),
-
+  };
+  updatePassword = {
     /**
      * @description 用户修改密码
      *
@@ -419,7 +423,7 @@ export class Api<SecurityDataType extends unknown> {
         ...params,
       }),
   };
-  订单 = {
+  addPickUp = {
     /**
      * @description 提交提取申请
      *
@@ -441,7 +445,8 @@ export class Api<SecurityDataType extends unknown> {
         type: ContentType.Json,
         ...params,
       }),
-
+  };
+  cancelById = {
     /**
      * @description 取消提取申请
      *
@@ -462,7 +467,8 @@ export class Api<SecurityDataType extends unknown> {
         type: ContentType.Json,
         ...params,
       }),
-
+  };
+  exportData = {
     /**
      * @description 导出明细
      *
@@ -483,7 +489,8 @@ export class Api<SecurityDataType extends unknown> {
         type: ContentType.Json,
         ...params,
       }),
-
+  };
+  getCommissionByUserId = {
     /**
      * @description 用户佣金查询
      *
@@ -503,7 +510,8 @@ export class Api<SecurityDataType extends unknown> {
         type: ContentType.Json,
         ...params,
       }),
-
+  };
+  getOrderListByUserId = {
     /**
      * @description 数据查询
      *
@@ -524,7 +532,8 @@ export class Api<SecurityDataType extends unknown> {
         type: ContentType.Json,
         ...params,
       }),
-
+  };
+  getPickupListByUserId = {
     /**
      * @description 获取提取记录
      *
@@ -545,7 +554,8 @@ export class Api<SecurityDataType extends unknown> {
         type: ContentType.Json,
         ...params,
       }),
-
+  };
+  sendWxCode = {
     /**
      * @description 发送公众号验证码
      *
@@ -566,7 +576,7 @@ export class Api<SecurityDataType extends unknown> {
         ...params,
       }),
   };
-  模板消息 = {
+  sendOfficialAccountsTemplateMsg = {
     /**
      * No description
      *

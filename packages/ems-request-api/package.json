@@ -1,12 +1,12 @@
 {
-  "name": "oms",
-  "version": "1.1.0",
+  "name": "ems-request-api",
+  "version": "1.0.0",
   "description": "> TODO: description",
   "author": "Apple <985688544@qq.com>",
-  "homepage": "",
+  "homepage": "https://github.com/985688544/request-api#readme",
   "license": "ISC",
   "main": "lib/index.js",
-  "module": "lib/index.es.js",
+  "module": "lib/index.js",
   "types": "lib/index.d.ts",
   "directories": {
     "lib": "lib",
@@ -18,8 +18,14 @@
   "publishConfig": {
     "registry": "https://registry.npm.taobao.org/"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/985688544/request-api.git"
+  },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
-  "gitHead": "ad74f68ec89d5e49459405ded314b9121bcd04e8"
+  "bugs": {
+    "url": "https://github.com/985688544/request-api/issues"
+  }
 }

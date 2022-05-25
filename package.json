@@ -8,8 +8,8 @@
     "api": "sac --config ./config/generateConfig.js",
     "api:oms": "sac --config ./config/generateConfig.js -p oms",
     "api:ems": "sac --config ./config/generateConfig.js -p ems",
-    "build:oms": "cross-env NODE_ENV=development PACKAGE=oms rollup -c ./script/rollup.config.js",
-    "build:ems": "cross-env NODE_ENV=development PACKAGE=ems rollup -c ./script/rollup.config.js"
+    "build:oms": "cross-env NODE_ENV=development PACKAGE=oms-request-api rollup -c ./script/rollup.config.js",
+    "build:ems": "cross-env NODE_ENV=development PACKAGE=ems-request-api rollup -c ./script/rollup.config.js"
   },
   "author": "",
   "license": "ISC",
@@ -18,16 +18,20 @@
     "swagger-api-codegen-cli": "^0.0.1"
   },
   "dependencies": {
-    "@babel/core": "^7.18.0",
-    "@babel/plugin-transform-runtime": "^7.18.0",
-    "@babel/runtime": "^7.18.0",
+    "@babel/core": "^7.18.2",
     "@rollup/plugin-babel": "^5.3.1",
     "@rollup/plugin-commonjs": "^22.0.0",
     "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "^13.3.0",
     "@rollup/plugin-typescript": "^8.3.2",
+    "@typescript-eslint/parser": "^5.26.0",
     "cross-env": "^7.0.3",
+    "ems": "file:packages/ems-request-api",
+    "oms": "file:packages/oms-request-api",
     "rollup-plugin-clear": "^2.0.7",
-    "rollup-plugin-terser": "^7.0.2"
+    "rollup-plugin-dts": "^4.2.1",
+    "rollup-plugin-eslint": "^7.0.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.31.2"
   }
 }
