@@ -7,8 +7,6 @@ import babel from "@rollup/plugin-babel";
 import tsPlugin from "@rollup/plugin-typescript";
 import resolve from '@rollup/plugin-node-resolve'
 import dts from 'rollup-plugin-dts'
-// import { eslint } from 'rollup-plugin-eslint' // eslint插件
-// import tsPlugin  from 'rollup-plugin-typescript2'
 // import { terser } from 'rollup-plugin-terser'
 
 // const getPath = _path => path.resolve(__dirname, _path)
