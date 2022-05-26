@@ -1,8 +1,8 @@
 Arguments: 
-  /usr/local/bin/node /usr/local/bin/yarn add vue-cli-service
+  /usr/local/bin/node /usr/local/bin/yarn add yarn add -D webpack-dev-serve
 
 PATH: 
-  /Library/Frameworks/Python.framework/Versions/3.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/a10.12/Library/Android/sdk/tools:/Users/a10.12/Library/Android/sdk/tools/bin:/Users/a10.12/Library/Android/sdk/platform-tools:/Users/a10.12/Library/Android/sdk/emulator
+  /Library/Frameworks/Python.framework/Versions/3.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Frameworks/Python.framework/Versions/3.7/bin:/Users/a10.12/Library/Android/sdk/tools:/Users/a10.12/Library/Android/sdk/tools/bin:/Users/a10.12/Library/Android/sdk/platform-tools:/Users/a10.12/Library/Android/sdk/emulator:/Users/a10.12/Library/Android/sdk/tools:/Users/a10.12/Library/Android/sdk/tools/bin:/Users/a10.12/Library/Android/sdk/platform-tools:/Users/a10.12/Library/Android/sdk/emulator
 
 Yarn version: 
   1.19.1
@@ -14,7 +14,7 @@ Platform:
   darwin x64
 
 Trace: 
-  Error: https://registry.npm.taobao.org/vue-cli-service: [NOT_FOUND] vue-cli-service not found
+  Error: https://registry.npm.taobao.org/webpack-dev-serve: [NOT_FOUND] webpack-dev-serve not found
       at Request.params.callback [as _callback] (/usr/local/lib/node_modules/yarn/lib/cli.js:66926:18)
       at Request.self.callback (/usr/local/lib/node_modules/yarn/lib/cli.js:140564:22)
       at Request.emit (node:events:527:28)
