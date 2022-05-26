@@ -7,14 +7,7 @@
       "allowBranch": "main",
       "conventionalCommits": true,
       "exact": true,
-      "ignoreChanges": [
-        "ignored-file",
-        "*.md"
-      ],
       "message": "chore(release): publish %s",
-      "npmClientArgs": [
-        "--no-package-lock"
-      ],
       "registry": "git@github.com:985688544/request-api.git"
     },
     "bootstrap": {
