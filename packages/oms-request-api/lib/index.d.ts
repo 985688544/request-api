@@ -63,12 +63,12 @@ interface IUser {
 }
 interface IGetDicUsingGetParams {
     /** code */
-    code: string;
+    字典类型: string;
     /**
      * 1
      * @format int32
      */
-    status?: number;
+    启用状态?: number;
 }
 /**
  * @format int32
